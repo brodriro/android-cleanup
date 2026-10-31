@@ -1,0 +1,7 @@
+Latency: 1ms [512B Data Write]
+Data-Free: 1000K / 2000K total = 50% free
+App Size Agg: 100
+Package Names: ["com.facebook.katana","com.android.systemui","com.example.app"]
+App Sizes: [1000,2000,3000]
+App Data Sizes: [100,200,300]
+Cache Sizes: [10,20,30]

@@ -1,0 +1,4 @@
+  Package idle stats:
+    package=com.facebook.katana u=0 bucket=50 reason=d-p used=+3d lastUsedByUser=-30d
+    package=com.example.app u=0 bucket=10 reason=u-ma used=+1m
+    package=com.android.systemui u=0 bucket=5 reason=d-p

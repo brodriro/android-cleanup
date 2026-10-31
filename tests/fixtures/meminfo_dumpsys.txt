@@ -1,0 +1,11 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 123 Realtime: 456
+
+Total PSS by process:
+    312,345K: com.android.systemui (pid 1234)
+     45,000K: com.facebook.katana (pid 2222 / activities)
+     12,000K: com.facebook.katana:notification (pid 2223)
+      8,000K: com.example.app (pid 3333)
+
+Total PSS by OOM adjustment:
+    999K: Native

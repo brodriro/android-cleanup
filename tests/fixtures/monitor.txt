@@ -1,0 +1,647 @@
+@@meminfo
+MemTotal:        1892156 kB
+MemFree:           64184 kB
+MemAvailable:     186332 kB
+Buffers:           15072 kB
+Cached:           183632 kB
+SwapCached:        25472 kB
+Active:           456224 kB
+Inactive:         456116 kB
+Active(anon):     364036 kB
+Inactive(anon):   363448 kB
+Active(file):      92188 kB
+Inactive(file):    92668 kB
+Unevictable:        2520 kB
+Mlocked:            2520 kB
+SwapTotal:       1572860 kB
+SwapFree:         395192 kB
+Dirty:                56 kB
+Writeback:             0 kB
+AnonPages:        709784 kB
+Mapped:           170544 kB
+Shmem:             12228 kB
+Slab:             187808 kB
+SReclaimable:      43640 kB
+SUnreclaim:       144168 kB
+KernelStack:       48288 kB
+PageTables:        76480 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2518936 kB
+Committed_AS:   85807372 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:          57344 kB
+CmaFree:               0 kB
+@@stat1
+cpu  8807717 1252078 31099019 10588822 106683 839998 572328 0 0 0
+@@stat2
+cpu  8807726 1252079 31099083 10588959 106683 839999 572328 0 0 0
+@@loadavg
+5.79 4.44 4.92 18/3016 17554
+@@df
+Filesystem            1K-blocks     Used Available Use% Mounted on
+/dev/root               3856784  3703244    153540  97% /
+tmpfs                    935836     1616    934220   1% /dev
+tmpfs                    935836        0    935836   0% /mnt
+/dev/block/dm-1          444320    65364    378956  15% /product
+/dev/block/dm-2          753820   593836    159984  79% /vendor
+tmpfs                    935836        0    935836   0% /apex
+/dev/block/mmcblk0p69  23591320 23042172    418076  99% /data
+/dev/block/mmcblk0p66    310360    10732    299628   4% /cache
+tmpfs                    935836        0    935836   0% /mnt/sde
+/dev/block/mmcblk0p29     98256    26496     71760  27% /vendor/firmware_mnt
+/dev/block/mmcblk0p68     85968    44000     41968  52% /vendor/firmware-modem
+/dev/block/mmcblk0p42     11760      504     11096   5% /efs
+/dev/block/mmcblk0p67     16048       24     16024   1% /omr
+/dev/fuse              23570840 23173244    397596  99% /storage/emulated
+@@battery
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Max charging current: 1000000
+  Max charging voltage: 5000000
+  Charge counter: 1661010
+  status: 2
+  health: 2
+  present: true
+  level: 43
+  scale: 100
+  voltage: 3973
+  temperature: 324
+  technology: Li-ion
+  batteryMiscEvent: 0
+  batteryCurrentEvent: 0
+  mSecPlugTypeSummary: 1
+  LED Charging: true
+  LED Low Battery: true
+  current now: 482025
+  charge counter: 1661010
+  Adaptive Fast Charging Settings: true
+  Super Fast Charging Settings: false
+USE_FAKE_BATTERY: false
+FEATURE_WIRELESS_FAST_CHARGER_CONTROL: false
+  mWasUsedWirelessFastChargerPreviously: false
+  mWirelessFastChargingSettingsEnable: true
+LLB CAL: 
+LLB MAN: 
+FEATURE_HICCUP_CONTROL: false
+FEATURE_SUPPORTED_DAILY_BOARD: false
+SEC_FEATURE_USE_WIRELESS_POWER_SHARING: false
+SEC_FEATURE_BATTERY_LIFE_EXTENDER: false
+health: vendor.samsung.hardware.health@2.0::ISehHealth@Proxy
+BatteryInfoBackUp
+  mSavedBatteryAsoc: -1
+  mSavedBatteryMaxTemp: 432
+  mSavedBatteryMaxCurrent: 1498261
+  mSavedBatteryUsage: 132154
+  FEATURE_SAVE_BATTERY_CYCLE: true
+  SEC_FEATURE_PREVENT_SWELLING: false
+@@getprop
+[ro.build.display.id]: [RP1A.200720.012.T290XXS5CWG3]
+[ro.build.version.incremental]: [T290XXS5CWG3]
+[ro.build.version.release]: [11]
+[ro.build.version.sdk]: [30]
+[ro.product.cpu.abi]: [arm64-v8a]
+[ro.product.manufacturer]: [samsung]
+[ro.product.model]: [SM-T290]
+@@wm
+Physical size: 800x1280
+@@nproc
+4
+@@uptime
+844267.24 545385.31
+@@packages
+320
+@@user_packages
+18
+@@ps
+   PID    RSS NAME                       
+     1    944 init
+     2      0 [kthreadd]
+     4      0 [kworker/0:0H]
+     6      0 [ksoftirqd/0]
+     7      0 [rcu_preempt]
+     8      0 [rcu_sched]
+     9      0 [rcu_bh]
+    10      0 [rcuop/0]
+    11      0 [rcuos/0]
+    12      0 [rcuob/0]
+    13      0 [migration/0]
+    14      0 [lru-add-drain]
+    15      0 [cpuhp/0]
+    16      0 [cpuhp/1]
+    17      0 [migration/1]
+    18      0 [ksoftirqd/1]
+    20      0 [kworker/1:0H]
+    21      0 [rcuop/1]
+    22      0 [rcuos/1]
+    23      0 [rcuob/1]
+    24      0 [cpuhp/2]
+    25      0 [migration/2]
+    26      0 [ksoftirqd/2]
+    28      0 [kworker/2:0H]
+    29      0 [rcuop/2]
+    30      0 [rcuos/2]
+    31      0 [rcuob/2]
+    32      0 [cpuhp/3]
+    33      0 [migration/3]
+    34      0 [ksoftirqd/3]
+    36      0 [kworker/3:0H]
+    37      0 [rcuop/3]
+    38      0 [rcuos/3]
+    39      0 [rcuob/3]
+    40      0 [netns]
+    43      0 [smd_channel_clo]
+    46      0 [smsm_cb_wq]
+    47      0 [msm_watchdog]
+    48      0 [irq/133-qpnp_lc]
+    49      0 [oom_reaper]
+    50      0 [writeback]
+    51      0 [kcompactd0]
+    52      0 [crypto]
+    53      0 [bioset]
+    54      0 [kblockd]
+    55      0 [irq/51-tsens-up]
+    56      0 [edac-poller]
+    57      0 [system]
+    58      0 [devfreq_wq]
+    59      0 [governor_msm_ad]
+    60      0 [cfg80211]
+    61      0 [irq/118-cpr]
+    63      0 [watchdogd]
+    88      0 [kswapd0]
+    89      0 [vmstat]
+    90      0 [ecryptfs-kthrea]
+   125      0 [rot_workq_0]
+   126      0 [mdss_dsi_event]
+   127      0 [mdss_dsi_dba]
+   128      0 [mem_share_svc]
+   129      0 [qmi_hndl0000000]
+   130      0 [msm_ipc_router]
+   131      0 [hwrng]
+   133      0 [diag_real_time_]
+   134      0 [diag_wq]
+   136      0 [DIAG_USB_diag]
+   137      0 [diag_cntl_wq]
+   138      0 [diag_dci_wq]
+   139      0 [DIAG_SMD_MODEM_]
+   140      0 [DIAG_SMD_MODEM_]
+   141      0 [DIAG_SMD_MODEM_]
+   142      0 [DIAG_SMD_MODEM_]
+   143      0 [DIAG_SMD_MODEM_]
+   144      0 [DIAG_SMD_LPASS_]
+   145      0 [DIAG_SMD_LPASS_]
+   146      0 [DIAG_SMD_LPASS_]
+   147      0 [DIAG_SMD_LPASS_]
+   148      0 [DIAG_SMD_LPASS_]
+   149      0 [DIAG_SMD_WCNSS_]
+   150      0 [DIAG_SMD_WCNSS_]
+   151      0 [DIAG_SMD_WCNSS_]
+   152      0 [DIAG_SMD_WCNSS_]
+   153      0 [DIAG_SMD_WCNSS_]
+   154      0 [DIAG_SMD_SENSOR]
+   155      0 [DIAG_SMD_SENSOR]
+   156      0 [DIAG_SMD_SENSOR]
+   157      0 [DIAG_SMD_SENSOR]
+   158      0 [DIAG_SMD_SENSOR]
+   159      0 [DIAG_SMD_CDSP_C]
+   160      0 [DIAG_SMD_CDSP_D]
+   161      0 [DIAG_SMD_CDSP_C]
+   162      0 [DIAG_SMD_CDSP_D]
+   163      0 [DIAG_SMD_CDSP_D]
+   164      0 [MODEM_CNTL]
+   165      0 [MODEM_DATA]
+   166      0 [MODEM_CMD]
+   167      0 [MODEM_DCI]
+   168      0 [MODEM_DCI_CMD]
+   169      0 [LPASS_CNTL]
+   170      0 [LPASS_DATA]
+   171      0 [LPASS_CMD]
+   172      0 [LPASS_DCI]
+   173      0 [LPASS_DCI_CMD]
+   174      0 [WCNSS_CNTL]
+   175      0 [WCNSS_DATA]
+   176      0 [WCNSS_CMD]
+   177      0 [WCNSS_DCI]
+   178      0 [WCNSS_DCI_CMD]
+   179      0 [SENSORS_CNTL]
+   180      0 [SENSORS_DATA]
+   181      0 [SENSORS_CMD]
+   182      0 [SENSORS_DCI]
+   183      0 [SENSORS_DCI_CMD]
+   184      0 [DIAG_CTRL]
+   185      0 [DIAG_DATA]
+   186      0 [DIAG_CMD]
+   187      0 [DIAG_DCI_DATA]
+   188      0 [DIAG_DCI_CMD]
+   189      0 [CDSP_CNTL]
+   190      0 [CDSP_DATA]
+   191      0 [CDSP_CMD]
+   192      0 [CDSP_DCI]
+   193      0 [CDSP_DCI_CMD]
+   194      0 [DIAG_CNTL_SOCKE]
+   200      0 [kgsl-workqueue]
+   201      0 [kgsl-mementry]
+   202      0 [kgsl_worker_thr]
+   203      0 [kgsl-events]
+   204      0 [kgsl_devfreq_wq]
+   205      0 [bioset]
+   206      0 [bioset]
+   207      0 [bioset]
+   208      0 [bioset]
+   209      0 [bioset]
+   210      0 [bioset]
+   211      0 [bioset]
+   212      0 [bioset]
+   213      0 [bioset]
+   214      0 [bioset]
+   215      0 [bioset]
+   216      0 [bioset]
+   217      0 [bioset]
+   218      0 [bioset]
+   219      0 [bioset]
+   220      0 [bioset]
+   221      0 [bioset]
+   222      0 [bioset]
+   223      0 [bioset]
+   224      0 [bioset]
+   225      0 [bioset]
+   226      0 [bioset]
+   227      0 [bioset]
+   228      0 [bioset]
+   229      0 [bioset]
+   230      0 [bioset]
+   231      0 [bioset]
+   232      0 [bioset]
+   233      0 [bioset]
+   234      0 [bioset]
+   235      0 [bioset]
+   236      0 [bioset]
+   237      0 [bioset]
+   238      0 [qseecom-unreg-l]
+   239      0 [qseecom-unload-]
+   241      0 [qcrypto_seq_res]
+   262      0 [sharedmem_qmi_w]
+   263      0 [qmi_hndl0000000]
+   265      0 [uether]
+   266      0 [fts_wq]
+   267      0 [irq/279-fts_ts]
+   269      0 [irq/280-abov_sa]
+   271      0 [msm_vidc_worker]
+   272      0 [pm_workerq_venu]
+   273      0 [irq/34-arm-smmu]
+   274      0 [irq/17-arm-smmu]
+   275      0 [irq/18-arm-smmu]
+   276      0 [irq/16-arm-smmu]
+   277      0 [msm_cci_wq]
+   278      0 [msm_cci_wq]
+   279      0 [msm_cpp_workque]
+   281      0 [irq/282-chgr-er]
+   282      0 [irq/283-chg-sta]
+   283      0 [irq/290-otg-fai]
+   284      0 [irq/294-high-du]
+   285      0 [irq/295-input-c]
+   286      0 [irq/297-switche]
+   288      0 [irq/298-bat-tem]
+   290      0 [irq/300-bat-ov]
+   292      0 [irq/301-bat-low]
+   293      0 [irq/302-bat-the]
+   294      0 [irq/303-bat-ter]
+   295      0 [irq/306-usbin-c]
+   296      0 [irq/307-usbin-v]
+   297      0 [irq/308-usbin-u]
+   298      0 [irq/309-usbin-o]
+   299      0 [irq/310-usbin-p]
+   300      0 [irq/312-usbin-s]
+   301      0 [irq/313-usbin-i]
+   302      0 [irq/314-typec-o]
+   303      0 [irq/316-typec-c]
+   304      0 [irq/317-typec-v]
+   305      0 [irq/319-typec-a]
+   306      0 [irq/320-typec-l]
+   307      0 [irq/323-wdog-ba]
+   308      0 [irq/325-aicl-do]
+   309      0 [irq/330-flash-s]
+   310      0 [irq/332-ilim2-s]
+   311      0 [qmi_tmd_wq]
+   312      0 [qmi_svc_event_w]
+   313      0 [irq/130-bcl-vba]
+   314      0 [irq/131-bcl-vba]
+   315      0 [irq/132-bcl-vba]
+   316      0 [dm_bufio_cache]
+   317      0 [mmc_clk_gate/mm]
+   318      0 [irq/93-7824900.]
+   319      0 [irq/91-mmc0]
+   321      0 [bioset]
+   322      0 [sdhci_msm_pm_qo]
+   323      0 [mmc-cmdqd/0]
+   324      0 [bioset]
+   325      0 [mmcqd/0rpmb]
+   326      0 [mmc_clk_gate/mm]
+   327      0 [irq/96-7864900.]
+   328      0 [irq/95-mmc1]
+   329      0 [irq/334-7864900]
+   330      0 [dbg_part_wq]
+   331      0 [ss_vibrator]
+   332      0 [ipv6_addrconf]
+   333      0 [irq/369-adsp]
+   334      0 [sysmon_wq]
+   335      0 [irq/401-wcnss]
+   336      0 [irq/337-modem]
+   337      0 [irq/432-qg-vbat]
+   338      0 [irq/433-qg-vbat]
+   339      0 [irq/434-qg-fifo]
+   340      0 [irq/435-qg-good]
+   341      0 [core_ctl/0]
+   346      0 [rq_stats]
+   347      0 [msm_perf:events]
+   348      0 [bam_dmux_rx]
+   349      0 [bam_dmux_tx]
+   350      0 [irq/29-arm-smmu]
+   351      0 [irq/136-qpnp_fl]
+   352      0 [irq/135-qpnp_fl]
+   353      0 [irq/134-qpnp_fl]
+   355      0 [kdmflush]
+   356      0 [bioset]
+   357      0 [kverityd]
+   358      0 [bioset]
+   359      0 [bioset]
+   360      0 [bioset]
+   361      0 [kworker/0:1H]
+   362      0 [ext4-rsv-conver]
+   366      0 [usb_bam_wq]
+   368      0 [kdmflush]
+   369      0 [bioset]
+   370      0 [kverityd]
+   371      0 [bioset]
+   372      0 [bioset]
+   373      0 [bioset]
+   374      0 [ext4-rsv-conver]
+   376      0 [kdmflush]
+   377      0 [bioset]
+   378      0 [kverityd]
+   379      0 [bioset]
+   380      0 [bioset]
+   381      0 [bioset]
+   382      0 [ext4-rsv-conver]
+   384    680 init
+   386   2540 ueventd
+   393      0 [apr_driver]
+   405      0 [kworker/1:1H]
+   407   3432 logd
+   408   2588 lmkd
+   409   2324 servicemanager
+   410   2372 hwservicemanager
+   411   1632 vndservicemanager
+   414      0 [psimon]
+   418   1504 android.hardware.keymaster@4.0-service-qti
+   423   1396 vendor.qti.hardware.qseecom@1.0-service
+   426   1848 vold
+   431      0 [jbd2/mmcblk0p69]
+   432      0 [ext4-rsv-conver]
+   434      0 [jbd2/mmcblk0p66]
+   435      0 [ext4-rsv-conver]
+   436      0 [jbd2/mmcblk0p5-]
+   437      0 [ext4-rsv-conver]
+   443      0 [jbd2/mmcblk0p48]
+   444      0 [ext4-rsv-conver]
+   446      0 [jbd2/mmcblk0p43]
+   447      0 [ext4-rsv-conver]
+   449      0 [jbd2/mmcblk0p42]
+   450      0 [ext4-rsv-conver]
+   452      0 [jbd2/mmcblk0p67]
+   453      0 [ext4-rsv-conver]
+   454   1432 iod
+   458   1292 qseecomd
+   470   2016 android.system.suspend@1.0-service
+   471   1388 android.hardware.atrace@1.0-service
+   472   1392 android.hardware.gatekeeper@1.0-service-qti
+   473   1392 vendor.qti.hardware.cryptfshw@1.0-service-qti
+   474   1552 vendor.samsung.hardware.security.engmode@1.0-service
+   475   1444 vaultkeeperd
+   477   1524 vendor.samsung.hardware.security.vaultkeeper@2.0-service
+   479   1328 storkd
+   482      0 [kworker/2:1H]
+   483      0 [kworker/3:1H]
+   497   1608 auditd
+   498      0 [kauditd]
+   500   1328 tombstoned
+   501   1524 emservice
+   502   1356 time_daemon
+   515   3480 statsd
+   516   3204 netd
+   517  14736 zygote64
+   518    840 zygote
+   527   1484 iptables-restore
+   532   1480 ip6tables-restore
+   591      0 [IPCRTR]
+   592      0 [adsp_IPCRTR]
+   593      0 [irq/27-arm-smmu]
+   595      0 [qmi_hndl0000000]
+   600    152 android.hardware.audio.service
+   601   1608 android.hidl.allocator@1.0-service
+   602      0 [irq/108-mbhc sw]
+   603      0 [irq/106-Button ]
+   604      0 [irq/105-Button ]
+   605   1592 android.hardware.bluetooth@1.0-service-qti
+   606      0 [irq/104-Elect I]
+   607      0 [irq/107-Elect R]
+   608      0 [irq/111-HPH_L O]
+   609      0 [irq/110-HPH_R O]
+   610    184 android.hardware.camera.provider@2.4-service
+   611    200 android.hardware.cas@1.2-service
+   612   1504 android.hardware.configstore@1.1-service
+   613   1396 android.hardware.drm@1.3-service.clearkey
+   614    804 android.hardware.drm@1.3-service.widevine
+   615   1044 android.hardware.gnss@2.1-service-qti
+   616   1680 android.hardware.graphics.allocator@2.0-service
+   617   2616 android.hardware.graphics.composer@2.1-service
+   618   2016 android.hardware.health@2.1-service-samsung
+   621   1740 android.hardware.memtrack@1.0-service
+   622   1524 android.hardware.power@1.0-service
+   623   1536 android.hardware.sensors@1.0-service
+   628   2220 android.hardware.wifi@1.0-service
+   629   1704 vendor.samsung.hardware.hyper-service
+   630   1548 vendor.samsung.hardware.light-service
+   633   1396 vendor.display.color@1.0-service
+   636   1396 vendor.qti.esepowermanager@1.1-service
+   639   1404 vendor.qti.hardware.capabilityconfigstore@1.0-service
+   640   1392 dspservice
+   646   1480 vendor.qti.hardware.perf@2.2-service
+   650   1396 vendor.qti.hardware.qteeconnector@1.0-service
+   651   1404 vendor.qti.hardware.soter@1.0-service
+   653   1392 vendor.qti.hardware.tui_comm@1.0-service-qti
+   657   1600 vendor.qti.hardware.vibrator.service
+   659   1388 vendor.samsung.hardware.media.converter@1.0-service
+   663   1444 vendor.samsung.hardware.miscpower@2.0-service
+   664   1488 vendor.samsung.hardware.security.drk@2.0-service
+   665   1388 vendor.samsung.hardware.sysinput@1.1-service
+   666   1880 vendor.samsung.hardware.thermal@1.0-service
+   668   1388 vendor.samsung.hardware.vibrator@2.2-service
+   676   1396 vendor.samsung.hardware.wifi@2.0-service
+   683   1220 qrtr-ns
+   695   1408 pm-service
+   704   2468 audioserver
+   706   1596 credstore
+   710   1528 gpuservice
+   714   9552 surfaceflinger
+   715   1380 rmt_storage
+   716   1352 tftp_server
+   719   1540 sensors.qti
+   732      0 [mtp_read_send]
+   733      0 [at_usb0]
+   734      0 [at_usb1]
+   735      0 [at_usb2]
+   737      0 [qdss]
+   738      0 [qdss_mdm]
+   739      0 [k_usb_ipa_data]
+   740      0 [k_gbam]
+   787      0 [irq/8-arm-smmu-]
+   823  93724 system_server
+   829   1412 mm-pp-dpps
+   833   1400 pm-proxy
+   842   1412 traced_probes
+   846   1852 traced
+   851   1388 thermal-engine
+   853   1392 wcnss_service
+   855   1644 hvdcp_opti
+   856   1408 netmgrd
+   858    516 cameraserver
+   861    164 drmserver
+   875   1524 imsd
+   877   1572 incidentd
+   883   2216 installd
+   893   1904 keystore
+   902   2132 media.extractor
+   903   1660 media.metrics
+   914    244 mediaserver
+   916    268 sechcserver
+   922   1608 spqr_service
+   927   2104 storaged
+   934   1912 wificond
+   936   1640 perfservice
+   944    168 media.codec
+   947   1256 ddexe
+   949   1464 connfwexe
+   951   1336 port-bridge
+   955   1396 adsprpcd
+   959   1280 media.swcodec
+   969   1836 cnss-daemon
+   970    196 ssgqmigd
+   971      0 [IPCRTR]
+   972      0 [modem_IPCRTR]
+   975      0 [qmi_hndl0000000]
+   978   1260 mlid
+   981   1356 loc_launcher
+   993   1632 gatekeeperd
+   995      0 [qmi_hndl0000000]
+  1003   1280 lowi-server
+  1005   1184 xtra-daemon
+  1014   1340 interfaces.factoryInterface@1.0-service
+  1032   1596 at_distributor
+  1113   1612 msm_irqbalance
+  1134   1384 adpl
+  1347      0 [irq/33-arm-smmu]
+  1351      0 [irq/14-arm-smmu]
+  1381  11552 com.netflix.mediaclient_zygote
+  1386      0 [IPCRTR]
+  1438      0 [wcnss_IPCRTR]
+  1753   8688 webview_zygote
+  3100  13544 com.netflix.mediaclient:d:o.dNF
+  4396  13540 com.sec.android.app.soundalive
+  4441      0 [kworker/0:0]
+  5547      0 [kworker/u9:3]
+  5793      0 [VosWDThread]
+  5800      0 [VosMCThread]
+  5801      0 [VosTXThread]
+  5802      0 [VosRXThread]
+  5862      0 [wlan_logging_th]
+  5878      0 [kworker/0:6]
+  5983   1868 wpa_supplicant
+  5989  21460 com.android.phone
+  6203  64976 com.android.systemui
+  6417    608 webview_zygote
+  6469  12732 com.android.cellbroadcastservice
+  6565  22840 com.android.networkstack.process
+  6685  13032 com.sec.sve
+  6735  12356 com.sec.imsservice
+  6757  12540 com.android.se
+  6825  14488 com.google.android.ext.services
+  6990  64508 com.sec.android.app.launcher
+  7257      0 [kworker/2:1]
+  7914   1696 pageboostd
+  7916  14400 com.android.bluetooth
+  7965      0 [irq/59-408000.q]
+  7969      0 [sugov:0]
+  8081   2248 adbd
+  8115  18460 com.samsung.android.MtpApplication
+  9240  14836 com.android.providers.media.module
+  9324  15740 com.google.android.googlequicksearchbox:interactor
+  9501      0 [kworker/1:1]
+  9503      0 [kworker/1:3]
+  9549  19144 com.samsung.android.honeyboard
+  9582  14568 android:drmService
+  9653  13040 com.sec.android.app.camerasaver
+  9702  17880 com.sec.android.diagmonagent
+  9773  22016 com.sec.android.sdhms
+ 10308  20280 android.process.acore
+ 10791      0 [intr_syncd]
+ 11115      0 [kworker/u8:0]
+ 11118      0 [kworker/u9:4]
+ 11316 103844 com.google.android.gm
+ 11329 120608 com.android.vending
+ 11339      0 [kworker/u8:4]
+ 11348      0 [kworker/u8:5]
+ 11475      0 [mdss_fb0]
+ 11487      0 [kworker/u8:3]
+ 11748      0 [kworker/u9:0]
+ 12002  17408 com.samsung.android.email.provider
+ 12133  21568 com.google.android.googlequicksearchbox:googleapp
+ 12192      0 [kworker/u8:6]
+ 12215  87948 com.android.vending:background
+ 12580      0 [kworker/0:2]
+ 12584      0 [kworker/0:4]
+ 12586      0 [kworker/0:5]
+ 12601  15092 com.qualcomm.telephony
+ 12863      0 [kworker/1:5]
+ 14485  24040 com.google.android.apps.turbo
+ 15736  96536 com.crunchyroll.crunchyroid
+ 15963  10360 com.qualcomm.qti.services.systemhelper:systemhelper_service
+ 16705   3872 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+ 16706  11092 com.android.chrome
+ 17310   1388 com.android.chrome_zygote
+ 17347   2040 sh
+ 17350   3936 com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+ 17741   2544 ps
+ 19262  14196 android.process.media
+ 19324      0 [kworker/2:0]
+ 21166  19484 com.google.android.googlequicksearchbox:search
+ 21633   1396 vendor.samsung.hardware.hqm@1.0-service
+ 21761  21092 com.google.android.gms.unstable
+ 22296  74712 com.lemon.lvoverseas
+ 23335      0 [kworker/1:2]
+ 24178      0 [kworker/3:1]
+ 24711      0 [kworker/3:0]
+ 24714      0 [kworker/3:4]
+ 25269      0 [kworker/u8:1]
+ 25513  31248 com.android.settings
+ 25629  94424 com.google.android.gms
+ 26610    316 mdnsd
+ 27379      0 [kworker/0:1]
+ 27864      0 [kworker/1:0]
+ 28275      0 [kworker/0:3]
+ 28653      0 [kworker/2:2]
+ 29130      0 [kworker/u8:2]
+ 29409  19964 com.google.process.gservices
+ 30280  12496 com.samsung.android.beaconmanager
+ 30978      0 [kworker/u9:1]
+ 31356      0 [irq/32-arm-smmu]
+ 31359      0 [irq/30-arm-smmu]
+ 31576      0 [kworker/3:2]
+ 31778  20192 com.google.process.gapps
+ 31814  14876 com.samsung.cmh:CMH
+ 32730 127780 com.netflix.mediaclient

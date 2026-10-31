@@ -1,0 +1,5 @@
+com.artlife.coloringbook: 40
+com.factory.mmigroup: 5
+com.sec.android.app.DataCreate: 40
+com.android.cts.priv.ctsshim: 40
+com.qualcomm.qti.qms.service.telemetry: 40

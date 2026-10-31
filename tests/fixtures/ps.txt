@@ -1,0 +1,6 @@
+  PID   UID   RSS NAME
+    1     0  9000 init
+ 1234 10050 400000 com.android.systemui
+ 2222 10120 90000 com.facebook.katana
+ 2223 10120 20000 com.facebook.katana:notification
+ 3333 10200 15000 com.example.app

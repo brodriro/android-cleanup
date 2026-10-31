@@ -1,0 +1,21 @@
+user=0 
+  Last 24 hour events (timeRange="30/10/2026 10:05 a. m. – 31/10/2026 10:05 a. m." )
+    time="2026-10-30 10:21:53" type=ACTIVITY_RESUMED package=com.netflix.mediaclient class=o.kSo instanceId=105429138 taskRootPackage=com.netflix.mediaclient taskRootClass=o.kSo flags=0x0 
+  In-memory daily stats
+  timeRange="30/10/2026 6:05 p. m. – 31/10/2026 10:05 a. m." 
+      package=com.google.android.youtube totalTimeUsed="1:09:42" lastTimeUsed="2026-10-30 21:43:20" totalTimeVisible="1:09:54" lastTimeVisible="2026-10-30 21:43:26" totalTimeFS="00:00" lastTimeFS="1969-12-31 19:00:00" appLaunchCount=2 fgServiceLaunchCount=0 
+      package=com.google.android.ext.services totalTimeUsed="00:00" lastTimeUsed="1969-12-31 19:00:00" totalTimeVisible="00:00" lastTimeVisible="1969-12-31 19:00:00" totalTimeFS="00:00" lastTimeFS="1969-12-31 19:00:00" appLaunchCount=0 fgServiceLaunchCount=0 
+User 0 App Standby States:
+  package=com.artlife.coloringbook u=0 bucket=40 reason=p used=+723d5h37m55s774ms usedByUser=+723d5h37m55s774ms usedScr=+154d6h29m47s512ms lastPred=+722d8h36m15s249ms activeLeft=-1316d2h40m35s966ms wsLeft=-1316d2h40m35s966ms lastJob=+722d8h39m38s458ms idle=y
+  package=com.factory.mmigroup u=0 bucket=5 reason=d used=+1316d2h41m22s588ms usedByUser=+1316d2h41m22s588ms usedScr=+451d3h14m15s422ms lastPred=+1316d2h41m22s588ms activeLeft=-563d5h13m54s2ms wsLeft=-1316d2h40m35s966ms lastJob=-24855d3h14m7s842ms idle=n
+  package=com.lemon.lvoverseas u=0 bucket=40 reason=t used=+23d15h3m37s598ms usedByUser=+23d15h5m18s704ms usedScr=+4d17h42m44s418ms lastPred=+11d4h37m37s205ms activeLeft=-1h15m27s384ms wsLeft=-312d0h49m31s851ms lastJob=+23d15h4m40s632ms idle=y
+  package=com.android.chrome u=0 bucket=40 reason=t used=+180d21h32m57s464ms usedByUser=+180d21h34m20s475ms usedScr=+27d15h25m35s798ms lastPred=+173d14h58m57s918ms activeLeft=-180d20h32m57s464ms wsLeft=-562d18h28m31s251ms lastJob=+20m30s892ms idle=y
+  package=com.google.android.gms u=0 bucket=5 reason=d used=+17d18h1m34s855ms usedByUser=+17d18h1m50s99ms usedScr=+3d2h40m45s953ms lastPred=+1316d2h41m22s588ms activeLeft=-6m6s466ms wsLeft=-4d22h11m27s781ms lastJob=+16m6s583ms idle=n
+  package=com.netflix.mediaclient u=0 bucket=10 reason=u-mb used=+45m26s599ms usedByUser=+45m33s531ms usedScr=+27m33s431ms lastPred=+46m55s731ms activeLeft=+14m33s401ms wsLeft=-32d14h55m31s485ms lastJob=+35m9s441ms idle=n
+  package=com.sec.android.app.launcher u=0 bucket=10 reason=u-mf used=+12m9s306ms usedByUser=+12m9s306ms usedScr=+12m9s306ms lastPred=+1316d2h41m22s588ms activeLeft=+47m50s694ms wsLeft=-1316d2h40m35s966ms lastJob=-24855d3h14m7s842ms idle=n
+  package=android.auto_generated_rro_vendor__ u=0 bucket=10 reason=d used=+634d20h18m30s608ms usedByUser=+1316d2h40m35s966ms usedScr=+126d8h29m16s354ms lastPred=+634d20h23m51s147ms activeLeft=-563d5h13m54s2ms wsLeft=-1316d2h40m35s966ms lastJob=-24855d3h14m7s842ms idle=n
+  
+  totalElapsedTime=+1316d2h40m35s966ms
+  totalScreenOnTime=+451d3h12m55s334ms
+
+Carrier privileged apps (have=true): []
